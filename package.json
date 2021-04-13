@@ -1,0 +1,31 @@
+{
+  "name": "product_graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run server",
+    "server": "node dist/server.js",
+    "watch-ndoe": "nodemon dist/server.js",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w"
+  },
+  "keywords": [
+    "Tyscript",
+    "Graphql",
+    "node",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/typegoose": "^7.6.0",
+    "apollo-server-express": "^2.22.2",
+    "class-validator": "^0.13.1",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "mongoose": "^5.12.3",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  }
+}
